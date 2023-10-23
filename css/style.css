@@ -82,8 +82,8 @@ a, a:hover {
   padding-bottom: 10px;
 }
 
-.product-card-bottom button {
-  width: 150px;
+.btn {
+  width: 200px;
   height: 35px;
   border-radius: 5px;
   font-weight: 700;
@@ -92,18 +92,25 @@ a, a:hover {
   transition: 0.5s;
 }
 
-.product-card-bottom button:hover {
+.btn:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   cursor: pointer;
 }
 
-.btn-buy {
+.btn-page-container {
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.btn-blue {
   border: none;
   background-color: #3483FA;
   color: white;
 }
 
-.btn-home {
+.btn-white {
   background-color: white;
   color: #3483FA;
   border: 1px solid #3483FA;
