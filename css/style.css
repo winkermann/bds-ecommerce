@@ -63,7 +63,7 @@ a, a:hover {
   color: unset;
 }
 
-.container {
+.dsc-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -71,21 +71,21 @@ a, a:hover {
 
 
 
-.card {
+.dsc-card {
   border-radius: 5px;
   background-color: var(--dsc-color-card-bg);
   padding: 10px 20px 10px 20px;
   border: 1px solid var(--dsc-color-card-border);
 }
 
-.line-bottom {
+.dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
 /* ------------------------------
   BUTTON 
   ------------------------------ */
-.btn {
+.dsc-btn {
   width: 220px;
   height: 40px;
   border-radius: 5px;
@@ -95,25 +95,25 @@ a, a:hover {
   transition: 0.5s;
 }
 
-.btn:hover {
+.dsc-btn:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   cursor: pointer;
 }
 
-.btn-page-container {
+.dsc-btn-page-container {
   margin-top: 20px;
   width: 100%;
   display: grid;
   grid-gap: 20px;
 }
 
-.btn-blue {
+.dsc-btn-blue {
   border: none;
   background-color: var(--dsc-color-btn-primary);
   color: var(--dsc-color-btn-inverse);
 }
 
-.btn-white {
+.dsc-btn-white {
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
   border: 1px solid var(--dsc-color-btn-primary);
