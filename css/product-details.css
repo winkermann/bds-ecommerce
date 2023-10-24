@@ -1,3 +1,5 @@
+@import url("style.css");
+
 #product-details {
   padding: 20px 0;
 }
@@ -17,13 +19,13 @@
 }
 
 .product-card-bottom h3 {
-  color: #0caf1d;
+  color: var(--dsc-color-font-secondary);
   font-size: 20px;
 }
 
 .product-card-bottom h4,
 .product-card-bottom p {
-  color: #636363;
+  color: var(--dsc-color-font-primary);
   font-size: 12px;
   padding-bottom: 10px;
 }
