@@ -32,6 +32,10 @@ body {
   background-color: var(--dsc-color-bg-primary);
 }
 
+main {
+  padding: 0 20px;
+}
+
 /* ------------------------------------------------------------
   HEADER 
   ------------------------------------------------------------ */
@@ -40,6 +44,7 @@ header {
   height: 70px;
   display: flex;
   align-items: center;
+  padding: 0 20px;
 }
 
 header nav {
@@ -90,12 +95,12 @@ header nav a:hover {
   BUTTON 
   ------------------------------------------------------------ */
 .dsc-btn {
-  width: 220px;
+  /* width: 220px; */
   height: 40px;
   border-radius: 5px;
   font-weight: 700;
   font-size: 16px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   transition: 0.5s;
 }
 
@@ -121,4 +126,10 @@ header nav a:hover {
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
   border: 1px solid var(--dsc-color-btn-primary);
+}
+
+@media (min-width: 576px) {
+  .dsc-btn-page-container {
+    width: 220px;
+  }
 }
