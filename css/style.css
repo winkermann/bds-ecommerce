@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
   --dsc-color-bg-primary: #e8e8e8;
@@ -24,7 +24,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
 }
 
 html,
@@ -32,9 +32,9 @@ body {
   background-color: var(--dsc-color-bg-primary);
 }
 
-/* ------------------------------
+/* ------------------------------------------------------------
   HEADER 
-  ------------------------------ */
+  ------------------------------------------------------------ */
 header {
   background-color: var(--dsc-color-bg-secondary);
   height: 70px;
@@ -54,22 +54,26 @@ header nav div {
   align-items: center;
 }
 
-header nav div img{
-margin-right: 5px;
+header nav div img {
+  margin-right: 5px;
 }
 
-a, a:hover {
+header nav a,
+header nav a:hover {
   text-decoration: none;
   color: unset;
+  font-weight: 700;
 }
+
+/* ------------------------------------------------------------
+  GENERIC 
+  ------------------------------------------------------------ */
 
 .dsc-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
-
-
 
 .dsc-card {
   border-radius: 5px;
@@ -82,9 +86,9 @@ a, a:hover {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-/* ------------------------------
+/* ------------------------------------------------------------
   BUTTON 
-  ------------------------------ */
+  ------------------------------------------------------------ */
 .dsc-btn {
   width: 220px;
   height: 40px;
