@@ -91,6 +91,14 @@ header nav a:hover {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
+.dsc-mb20 {
+  margin-bottom: 20px;
+}
+
+.dsc-mt20 {
+  margin-top: 20px;
+}
+
 /* ------------------------------------------------------------
   BUTTON 
   ------------------------------------------------------------ */
@@ -128,6 +136,20 @@ header nav a:hover {
   border: 1px solid var(--dsc-color-btn-primary);
 }
 
+.dsc-btn-nextpage {
+  background-color: var(--dsc-color-btn-inverse);
+  color: var(--dsc-color-btn-primary);
+  border: 1px solid var(--dsc-color-btn-primary);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------
+  MEDIA QUERY 
+  ------------------------------------------------------------ */
 @media (min-width: 576px) {
   .dsc-btn-page-container {
     width: 220px;
