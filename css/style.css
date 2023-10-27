@@ -173,7 +173,6 @@ header nav a:hover {
   display: flex;
   color: var(--dsc-color-font-primary);
   /* border: 1px solid var(--dsc-color-card-border); */
-
 }
 
 .dsc-search-bar button,
@@ -255,11 +254,28 @@ header nav a:hover {
   border: 1px solid var(--dsc-color-error);
 }
 
-
 .dsc-form-error {
   color: var(--dsc-color-error);
   font-size: 12px;
   padding-left: 4px;
+}
+
+.dsc-select:invalid {
+  color: var(--dsc-color-font-placeholder);
+}
+
+.dsc-select option[disabled] {
+  display: none;
+}
+
+.dsc-select option {
+  color: var(--dsc-color-font-primary);
+}
+
+.dsc-textarea {
+  resize: none;
+  height: 128px;
+  padding-top: 10px;
 }
 
 @media (min-width: 576px) {
